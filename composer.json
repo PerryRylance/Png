@@ -1,0 +1,34 @@
+{
+	"name": "perry-rylance/png",
+    "description": "PNG parsing and writing library (Incomplete)",
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"homepage": "https://perryrylance.com",
+	"license": "MIT",
+	
+	"authors": [
+		{
+			"name": "Perry Rylance",
+			"email": "contact@perryrylance.com",
+			"homepage": "https://perryrylance.com",
+			"role": "Developer"
+		}
+	],
+
+	"type": "library",
+	"keywords": ["PNG", "xTXt"],
+
+    "require": {
+        "php": ">=7.4"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+
+	"autoload": {
+		"psr-4": {
+			"PerryRylance\\": "src"
+		}
+	}
+}
